@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int num=153,rem,sum=0,temp;
+	rem=num%10;
+	sum=sum+(rem*rem*rem);
+	num=num/10;
+	printf("rem=%d\n",rem);
+	printf("sum=%d\n",sum);
+	printf("num=%d\n",num);
+	return 0;
+}
